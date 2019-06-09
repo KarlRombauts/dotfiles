@@ -1,0 +1,98 @@
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "crisidev/chunkwm"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+
+brew "coreutils"
+brew "parallel"
+brew "choose-gui"
+brew "ffmpeg"
+brew "fzf"
+brew "gnu-tar"
+brew "htop"
+brew "ranger" # File browser
+brew "nnn" # File browser
+brew "tree"
+brew "z"
+brew "bat"
+brew "yank"
+brew "ripgrep"
+brew "Ack" # Improved Grep
+brew "the_silver_searcher" # Faster still than Ack
+brew "wget"
+brew "tmux"
+brew "slugify"
+brew "koekeishiya/formulae/chunkwm" # Window manager for macos
+brew "koekeishiya/formulae/skhd" # Simple hotkey daemon for macos
+
+# Development Tools
+brew "nginx", restart_service: true
+brew "nmap"
+brew "php@7.2", restart_service: true, link: true
+brew "neovim"
+brew "node"
+brew "yarn"
+brew "nvm"
+brew "composer"
+brew "python"
+brew "python@2"
+brew "awscli"
+brew "dnsmasq", restart_service: true
+brew "ansible"
+brew "mariadb", restart_service: true
+brew "mongodb", restart_service: true
+brew "mycli"
+
+brew "yadm" # Yet another dotfile manager
+brew "dockutil" # Manage the macos dock via the command line
+brew "mas" # Mac App Store manager
+
+# Git Tools
+brew "git"
+brew "git-lfs" # Large file storage
+brew "git-open" # Open remote url in browser
+brew "git-extras"
+
+# Casks (Applications)
+cask "alfred"
+cask "google-chrome"
+cask "phpstorm"
+cask "sequel-pro"
+cask "the-unarchiver"
+cask "slack"
+cask "vlc"
+cask "java"
+cask "sourcetree"
+cask "spotify"
+cask "visual-studio-code"
+cask "caskroom/versions/firefox-developer-edition"
+cask "firefox"
+cask "caskroom/versions/iterm2-beta"
+cask 'google-backup-and-sync'
+cask 'google-drive-file-stream'
+cask 'karabiner-elements'
+cask 'insomnia'
+cask "openinterminal"
+cask 'lastpass'
+cask "mongodb-compass-community"
+cask '1password'
+
+# Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
+cask "qlstephen"
+cask "qlcolorcode"
+cask "figma"
+cask "gitkraken"
+cask "qlmarkdown"
+cask "quicklook-json"
+cask "betterzip"
+cask "qlimagesize"
+cask "webpquicklook"
+cask "suspicious-package"
+cask "quicklookase"
+cask 'quicklook-csv'
+cask "qlvideo"
