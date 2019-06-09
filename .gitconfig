@@ -1,0 +1,24 @@
+[user]
+	email = karlrombauts@gmail.com
+	name = Karl Rombauts
+[core]
+	editor = nvim
+
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+
+[mergetool]
+	prompt = false
+	keepBackup = false
+
+[mergetool "vimdiff"]
+  	cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'windcmd J'
+
+[diff]
+	tool = vimdiff
+	prompt = false
+
+[difftool "vimdiff"]
+	path = nvim
+
