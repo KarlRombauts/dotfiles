@@ -1,0 +1,11 @@
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+
+#add composer to path
+export PATH=$HOME/.composer/vendor/bin:$PATH
+
+#add local node modules to path
+export PATH=node_modules/.bin:$PATH
+
+#add python modules to path
+export PATH=$HOME/Library/Python/3.7/bin:$PATH

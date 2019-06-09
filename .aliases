@@ -1,0 +1,16 @@
+alias vim=nvim
+alias vimdiff= 'vim -d'
+
+# replace cat with bat
+alias cat=bat
+# quick access to common rc files
+alias vimrc='nvim ~/.config/nvim/init.vim'
+alias zshrc='nvim ~/.zshrc'
+alias aliases='nvim ~/.aliases'
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
+
+# Open Editors
+alias code="/Applications/Visual\ Studio\ code.app/Contents/Resources/app/bin/code" #VS Code
+

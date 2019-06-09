@@ -1,0 +1,23 @@
+# Make vim the default editor.
+export EDITOR=nvim;
+
+# Set defualt command for FZF
+export FZF_DEFAULT_COMMAND='rg --files'
+
+#Load Oh My Zsh
+export ZSH="/Users/karlrombauts/.oh-my-zsh"
+
+# Enable persistent REPL history for `node`.
+NODE_REPL_HISTORY_FILE=~/.node_history;
+
+# Allow 32³ entries; the default is 1000.
+NODE_REPL_HISTORY_SIZE='32768';
+
+# Increase Bash history size. Allow 32³ entries; the default is 500.
+export HISTSIZE='32768';
+export HISTFILESIZE="${HISTSIZE}";
+
+# Omit duplicates and commands that begin with a space from history.
+export HISTCONTROL='ignoreboth';
+
+
